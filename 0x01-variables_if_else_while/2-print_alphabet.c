@@ -3,19 +3,18 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters
+ * Description: print all alphabet letters in lowercase.
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int i = 97;
+	char alphabet = 'a';
 
-	while (i <= 122)
+	while (alphabet <= 'z')
 	{
-		putchar(i);
-		i++;
+		putchar(alphabet++);
 	}
 	putchar('\n');
 
