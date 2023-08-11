@@ -3,26 +3,20 @@
 /**
  * main - Entry point
  *
- * Description: print all aplhabet letters in lowercase, and then in uppercase followeb by a new line
+ * Description: print all aplhabet letters in lowercase, and then in uppercase
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int j = 65;
 	int i = 97;
+	int j = 65;
 
-	while (j <= 90)
-	{
-		putchar(j);
-		j++;
-	}
 	while (i <= 122)
-	{
-		putchar(i);
-		i++;
-	}
+		putchar(i++);
+	while (j <= 90)
+		putchar(j++);
 	putchar('\n');
 
 	return (0);
