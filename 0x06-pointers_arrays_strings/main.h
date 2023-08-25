@@ -7,6 +7,6 @@ char *string_toupper(char *s);
 char *cap_string(char *s);
 char *leet(char *s);
 char *rot13(char *);
-void print_number(int);
+void print_number(int n);
 char *infinite_add(char *, char *,char *, int);
 void print_buffer(char *, int);
