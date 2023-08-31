@@ -7,7 +7,7 @@
 #include <sys/stat.h>
 
 /**
- * print_diagsums - prints the sum of the two diagonals of a square matrix of integers
+ * print_diagsums - Prints the sum of the two diagonals of a square matrix of integers
  *
  * @a: pointer to the matrix
  * @size: size of the matrix
