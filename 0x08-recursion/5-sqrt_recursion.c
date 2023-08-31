@@ -19,13 +19,13 @@ int helper_sqrt_recursion(int n, int i)
 }
 
 /**
- * _sqrt_recursion - a function that returns the natural square root of a num
+ * _sqrt_recursion - a function that returns the natural
+ *                   square root of a number
  *
- * @n: integer
+ * @n: input number
  *
- * Return : square root
+ * Return: square root
 */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
