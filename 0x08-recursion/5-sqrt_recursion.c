@@ -6,7 +6,7 @@
  * @n: number to calculate the square root of
  * @i: iterator
  *
- * Return: integer
+ * Return: square root of @n
 */
 
 int helper_sqrt_recursion(int n, int i)
@@ -23,7 +23,7 @@ int helper_sqrt_recursion(int n, int i)
  *
  * @n: integer
  *
- * Return : integer
+ * Return : square root
 */
 
 int _sqrt_recursion(int n)
